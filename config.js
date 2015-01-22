@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: process.env.websiteUrl,
+        url: 'http://' + process.env.siteName + '.azurwebsites.net',
 
         // Visit http://support.ghost.org/mail for instructions
          mail: {

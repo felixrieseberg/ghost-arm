@@ -96,8 +96,8 @@
           "properties": {
             "appSettings": [
               {
-                "name": "websiteUrl",
-                "value": "[parameters('Website URL')]"
+                "name": "siteName",
+                "value": "[parameters('siteName)]"
               },
               {
                 "name": "emailService",
